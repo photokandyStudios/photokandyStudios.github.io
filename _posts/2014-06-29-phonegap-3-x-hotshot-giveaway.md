@@ -23,9 +23,9 @@ I am pleased to announce that I have teamed up with Packt Publishing and we are 
 * Explore often-used design patterns in apps designed for mobile devices
 * Fully practical, project-based approach to give you the confidence in developing your app independently
 * More Information:
-    * {% icon fa-fw fa-shopping-cart %} [Amazon.com](http://www.amazon.com/PhoneGap-Mobile-Application-Development-Hotshot-ebook/dp/B00KLAJ5Z0/)
-    * {% icon fa-fw fa-shopping-cart %} [Packt Publishing](http://www.packtpub.com/phonegap-3-x-mobile-application-development-hotshot/book)
-    * {% icon fa-fw fa-book %} [PhoneGap 3.x Mobile Application Design Hotshot]({{ site.baseurl }}/books/phonegap-3-x-hotshot/)
+    * [Amazon.com](http://www.amazon.com/PhoneGap-Mobile-Application-Development-Hotshot-ebook/dp/B00KLAJ5Z0/)
+    * [Packt Publishing](http://www.packtpub.com/phonegap-3-x-mobile-application-development-hotshot/book)
+    * [PhoneGap 3.x Mobile Application Design Hotshot]({{ site.baseurl }}/books/phonegap-3-x-hotshot/)
 
 
 ## How to Enter?

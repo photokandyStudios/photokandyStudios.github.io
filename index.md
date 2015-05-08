@@ -42,7 +42,6 @@ or just want to chat a bit, [feel free to send a note]({{ site.baseurl }}/contac
   <ul class="fa-ul">
     {% if post.date %}<li><i class="fa fa-li fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</li>{% endif %}
     {% if post.author %}<li><i class="fa fa-li fa-user"></i> {{ post.author }}</li>{% endif %}
-    {% if post.categories %}{% for category in post.categories %}<li><i class="fa fa-li fa-tag"></i> {% categorylink {{category}} %}{{ category }}{% endcategorylink %}</li>{% endfor %}{% endif %}
   </ul>
   </div>
   <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>

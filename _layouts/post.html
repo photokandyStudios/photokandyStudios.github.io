@@ -3,8 +3,7 @@ layout: default
 ---
 <article>
   {% include article-heading.html %}
-  <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-  {% if page.categories %}{% for category in page.categories %} • {% categorylink {{category}} %}{{ category }}{% endcategorylink %}{% endfor %}{% endif %}</p>
+  <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   {{ content }}
   <div id="disqus_thread"></div>
     <script type="text/javascript">

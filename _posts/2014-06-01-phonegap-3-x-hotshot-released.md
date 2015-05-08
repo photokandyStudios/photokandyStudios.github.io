@@ -71,7 +71,7 @@ So what are you waiting for? Use those "buy" buttons at the top of this post, or
 book! And if you'd be so kind to leave a review, that would be *amazing*!
 
 * Buy the book:
-    * {% icon fa-fw fa-shopping-cart %} [Amazon.com]({{ page.buttons[0].url }})
-    * {% icon fa-fw fa-shopping-cart %} [Packt Publishing]({{ page.buttons[1].url }})
+    * [Amazon.com]({{ page.buttons[0].url }})
+    * [Packt Publishing]({{ page.buttons[1].url }})
 * More information:
-    * {% icon fa-fw fa-book %} [PhoneGap 3.x Mobile Application Design Hotshot]({{ site.baseurl }}/books/phonegap-3-x-hotshot/)
+    * [PhoneGap 3.x Mobile Application Design Hotshot]({{ site.baseurl }}/books/phonegap-3-x-hotshot/)

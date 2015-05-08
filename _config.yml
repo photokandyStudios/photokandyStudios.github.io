@@ -53,7 +53,7 @@ paginate_path: "blog/page:num"
 # Build settings
 markdown: kramdown
 permalink: pretty
-safe: false
+safe: true
 exclude:
   - _design-assets
   - tools
