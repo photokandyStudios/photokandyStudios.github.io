@@ -1,0 +1,6 @@
+#/bin/sh
+pushd ..
+jekyll build -t
+cp -r ~/Dropbox/newwww/apps/gib/13 _site/apps/gib/
+find _site -name "*.html" -print -exec /usr/local/bin/tidy5 -mq --merge-emphasis no --coerce-endtags no --drop-empty-elements no --new-blocklevel-tags more --hide-comments yes --indent yes {} \;
+popd

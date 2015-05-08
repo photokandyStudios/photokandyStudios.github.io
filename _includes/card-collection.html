@@ -1,0 +1,9 @@
+<div class="card-collection {{ cardCollectionClass }}">
+{% for card in cardCollection %}{% if card.weight >= 0 %}
+<div class="card" {% if card.url %} onclick='window.location.href="{{ site.baseurl }}{{ card.url }}"' {% endif %}>
+<h1>{{ card.title }}</h1>
+<img src="{{ site.baseurl }}/images/{{ card.frontImage }}" class="{{card.class}}" {% if card.zoomImage %} data-zoom-img="{{site.baseurl}}/images/{{card.zoomImage}}" {% endif %} />
+<p>{{ card.blurb }} {% if card.url %}<a href="{{ site.baseurl }}{{ card.url }}">Learn more...</a>{% endif %}</p>
+</div>
+{% endif %}{% endfor %}
+</div>

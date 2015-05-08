@@ -1,0 +1,21 @@
+<a id="top"></a>
+<div id="toggle" class="fa fa-bars fa-2x" onclick="APP.toggleNav();" ontouchstart="APP.toggleNav();">&nbsp;</div>
+<div id="container">
+  <header>
+    <h1><a class="siteTitle" href="{{ site.baseurl }}/">photoKandy Studios LLC</a></h1>
+  </header>
+  <nav id="mainNav" class="menuHiddenWhenSmall">
+    {% assign pageList = site.pages | sort: 'weight' %}
+    {% for node in pageList %}
+    {% if node.weight >= 0 %}
+    {% if node.title %}
+    {% if node.title == page.active %}
+    <a href="{{ node.url | prepend: site.baseurl }}" class="selected">{{ node.title }}</a>
+    {% else %}
+    <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </nav>
+  <div id="main">

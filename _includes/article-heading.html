@@ -1,0 +1,21 @@
+<style>
+  {% if page.backgroundColor %} #main > article > header { background-color: {{ page.backgroundColor }};} {% endif %}
+  {% if page.hideTextGroup %} #main > article > header .text-group { display: none } {% endif %}
+  {% if page.hideTitle %} #main > article > header .text-group h1 { display: none } {% endif %}
+</style>
+<header style="background-image: url({{ site.baseurl }}/images/{{ page.image }})" class="slide-{{ page.imageAlign }}-align">
+{%if page.images %}{%for image in page.images %}
+  <div class="slide" style="background-image:url({{ site.baseurl }}/images/{{ image }})"></div>
+{%endfor%}{%endif%}
+{% if page.carousel %}<div class="carousel-container"><div class="carousel"> {% for image in page.carousel %}<img src="{{ site.baseurl }}/images/{{ image[0] }}" class="zoomable" data-zoom-img="{{ site.baseurl }}/images/{{ image[1] }}">{% endfor %}</div></div>{% endif %}
+  <div class="text-group">
+  {%if page.longTitle %}<h1>{{ page.longTitle }}</h1>{% else %}<h1>{{ page.title }}</h1>{% endif %}{%if page.caption %}<div class="caption">{{ page.caption }}</div>{% endif %}
+{% if page.buttons %}
+<div class="button-group">
+{% for button in page.buttons %}
+  <div class="button"><a class="{{ button.icon }}" target="_blank" href="{{ button.url }}">{{ button.text }}</a></div>
+{% endfor %}
+</div>
+{% endif %}
+  </div>
+</header>

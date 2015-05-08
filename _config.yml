@@ -1,0 +1,63 @@
+# Site settings
+gems:
+  - octopress-autoprefixer
+title: photoKandy Studios LLC
+email: kerri@photokandy.com
+description: "photoKandy Studios LLC is in the business of creating great content, whether it be mobile apps, websites, or graphic design. We also offer various consulting services."
+baseurl: ""
+url: "http://www.photokandy.com"
+github: https://github.com/kerrishotts
+googlePlus: https://plus.google.com/110429856422449500918/posts
+twitter: https://twitter.com/photokandy
+tumblr: http://photokandy.tumblr.com/
+appnet: https://alpha.app.net/photokandy
+facebook: https://www.facebook.com/photoKandy
+linkedin: http://www.linkedin.com/in/kerrishotts/
+behance: https://www.behance.net/kerrishotts
+coderwall: https://coderwall.com/kerrishotts
+flickr: https://www.flickr.com/photos/photokandy
+stackOverflow: http://stackoverflow.com/users/741043/kerri-shotts
+ohloh: https://www.ohloh.net/accounts/kerrishotts
+youtube: https://www.youtube.com/user/kshotts62012
+soundcloud: https://soundcloud.com/kerri-shotts
+phonegapForums: https://groups.google.com/forum/#!profile/phonegap/APn2wQeTZ3F7A_3WVm7kjjNFsBcgR44Ud53-Wd3xW5JIblGVVHX9oyrAt-O2IDR1KB5NG4IqQ0S9
+googleAPIKey: AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0
+collections:
+  apps:
+     title: Apps
+     frontPage: "I love mobile apps as much as the next person &mdash; and I love making them, too!"
+     frontImage: block-mobile.png
+     output: true
+     url: "/apps/"
+  books:
+     title: Books
+     frontPage: "No matter what the subject, I'm compelled to put it on paper. Here are some of my books I've written."
+     frontImage: block-writing.png
+     output: true
+     url: "/books/"
+  services:
+     title: Services
+     frontPage: "Whether it be IT Consulting, Graphic Design, or Mobile Application Development, I can help."
+     frontImage: block-puzzle.png
+     output: true
+     url: "/services/"
+  projects:
+     title: Projects
+     output: true
+     url: "/projects/"
+category_archive:
+  path: categories
+paginate: 10
+paginate_path: "blog/page:num"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+safe: false
+exclude:
+  - _design-assets
+  - tools
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - Rakefile
