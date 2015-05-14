@@ -2,20 +2,21 @@
 layout: page
 title: Consulting
 active: Services
-image: block-database-large.png
+image: "block-database-large.png"
 imageAlign: center
 caption: "Got a burning question?"
 permalink: /services/consulting/
 blurb: "Need to implement a database, reporting solution, or need other IT advice? We're here to help."
-frontImage: block-database.png
+frontImage: "block-database.png"
 backgroundColor: "#CC4444"
 weight: 400
+published: true
 ---
+
 
 <div class="card right">
 <h1>Useful Links</h1>
 <ul class="fa-ul">
-<li><i class="fa fa-li fa-info"></i><a href="{{ site.baseurl }}/categories/consulting/">News and Updates</a></li>
 <li><i class="fa fa-li fa-envelope"></i><a href="{{ site.baseurl }}/contact/">Contact Me</a></li>
 </ul>
 </div>
