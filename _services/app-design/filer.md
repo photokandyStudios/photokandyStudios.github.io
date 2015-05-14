@@ -1,17 +1,23 @@
 ---
 layout: page
 title: Filer
-hideTextGroup: yes
+hideTextGroup: "yes"
 active: Services
 image: forest.jpg
-carousel:
- - [ phonegap-3-x-hotshot/filer/tns/IMG_0677.png, phonegap-3-x-hotshot/filer/IMG_0677.png ]
- - [ phonegap-3-x-hotshot/filer/tns/IMG_0830.png, phonegap-3-x-hotshot/filer/IMG_0830.png ]
- - [ phonegap-3-x-hotshot/filer/tns/IMG_0540.png, phonegap-3-x-hotshot/filer/IMG_0540.png ]
- - [ phonegap-3-x-hotshot/filer/tns/IMG_0541.png, phonegap-3-x-hotshot/filer/IMG_0541.png ]
-permalink: /services/app-design/filer/
+carousel: 
+  - - "phonegap-3-x-hotshot/filer/tns/IMG_0677.png"
+    - "phonegap-3-x-hotshot/filer/IMG_0677.png"
+  - - "phonegap-3-x-hotshot/filer/tns/IMG_0830.png"
+    - "phonegap-3-x-hotshot/filer/IMG_0830.png"
+  - - "phonegap-3-x-hotshot/filer/tns/IMG_0540.png"
+    - "phonegap-3-x-hotshot/filer/IMG_0540.png"
+  - - "phonegap-3-x-hotshot/filer/tns/IMG_0541.png"
+    - "phonegap-3-x-hotshot/filer/IMG_0541.png"
+permalink: "/services/app-design/filer/"
 weight: -1
+published: true
 ---
+
 
 # Filer
 
@@ -26,22 +32,22 @@ The icon is to the right, minus the iOS 7 curved borders (these are applied auto
 operating system). The "7" simply represents the version number -- there are seven versions of the project in the book.
 
 ###### Main Screen
-![Main Screen]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0677.png){: class="zoomable limit-height no-fill left"}
+![Main Screen]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0677.PNG){: class="zoomable limit-height no-fill left"}
 
 This is the main screen that the app uses. The icons next to each note can vary based upon the type of media. The look and
 feel changes according to whether or not the app is running on iOS (shown) or Android (not shown, but uses a light Holo
 theme).
 
 ###### Audio Notes
-![Audio Notes]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0830.png){: class="zoomable limit-height no-fill right"}
+![Audio Notes]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0830.PNG){: class="zoomable limit-height no-fill right"}
 
 The image to the right is an example of one of the editing screens -- this one for an audio note. There are different editing
 screens for different note types -- one that's pure text, another for photos, and one for video.
 
 ###### Responsive Design
-![Responsive Design]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0540.png){: class="zoomable" }
+![Responsive Design]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0540.PNG){: class="zoomable" }
 
-![Responsive Design]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0541.png){: class="zoomable limit-height no-fill right limit-width-300" }
+![Responsive Design]({{ site.baseurl}}/images/phonegap-3-x-hotshot/filer/IMG_0541.PNG){: class="zoomable limit-height no-fill right limit-width-300" }
 
 The final version of the app in the book is modified to support multiple form factors -- the above is one of the responses
 to the larger screen -- the list view is replaced with a grid pattern where each item looks a bit like a document icon.
