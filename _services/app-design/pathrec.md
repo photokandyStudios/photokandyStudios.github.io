@@ -1,15 +1,19 @@
 ---
 layout: page
 title: PathRec
-hideTextGroup: yes
+hideTextGroup: "yes"
 active: Services
 image: forest.jpg
-carousel:
- - [ phonegap-3-x-hotshot/pathrec/tns/IMG_0542.png, phonegap-3-x-hotshot/pathrec/IMG_0542.png ]
- - [ phonegap-3-x-hotshot/pathrec/splash.png, phonegap-3-x-hotshot/pathrec/splash.png ]
-permalink: /services/app-design/pathrec/
+carousel: 
+  - - "phonegap-3-x-hotshot/pathrec/tns/IMG_0542.png"
+    - "phonegap-3-x-hotshot/pathrec/IMG_0542.png"
+  - - "phonegap-3-x-hotshot/pathrec/splash.png"
+    - "phonegap-3-x-hotshot/pathrec/splash.png"
+permalink: "/services/app-design/pathrec/"
 weight: -1
+published: true
 ---
+
 
 # PathRec
 
@@ -24,7 +28,7 @@ The icon is to the right, minus the iOS 7 curved borders (these are applied auto
 operating system). The icon is meant to symbolize recording (the red dot) the user's location (the cross-hairs in a circle.
 
 ###### Main Screen
-![Main Screen]({{ site.baseurl}}/images/phonegap-3-x-hotshot/pathrec/IMG_0542.png){: class="zoomable"}
+![Main Screen]({{ site.baseurl}}/images/phonegap-3-x-hotshot/pathrec/IMG_0542.PNG){: class="zoomable"}
 
 This is a bit more than what the actual screen shows -- technically the view is an off-canvas view (ala Facebook). Therefore,
 when the left-hand sidebar is visible, a portion of the right-hand view is cut off. When the entire right-hand view is visible,
