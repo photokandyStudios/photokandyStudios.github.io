@@ -1,16 +1,21 @@
 ---
 layout: page
 title: Cave Runner
-hideTextGroup: yes
+hideTextGroup: "yes"
 active: Services
 image: forest.jpg
-carousel:
- - [ phonegap-3-x-hotshot/caverunner/tns/IMG_0853.png, phonegap-3-x-hotshot/caverunner/IMG_0853.png ]
- - [ phonegap-3-x-hotshot/caverunner/tns/IMG_0713.png, phonegap-3-x-hotshot/caverunner/IMG_0713.png ]
- - [ phonegap-3-x-hotshot/caverunner/splash.png, phonegap-3-x-hotshot/caverunner/splash.png ]
-permalink: /services/app-design/caverunner/
+carousel: 
+  - - "phonegap-3-x-hotshot/caverunner/tns/IMG_0853.png"
+    - "phonegap-3-x-hotshot/caverunner/IMG_0853.png"
+  - - "phonegap-3-x-hotshot/caverunner/tns/IMG_0713.png"
+    - "phonegap-3-x-hotshot/caverunner/IMG_0713.png"
+  - - "phonegap-3-x-hotshot/caverunner/splash.png"
+    - "phonegap-3-x-hotshot/caverunner/splash.png"
+permalink: "/services/app-design/caverunner/"
 weight: -1
+published: true
 ---
+
 
 # Cave Runner
 
@@ -25,13 +30,13 @@ The icon is to the right, minus the iOS 7 curved borders (these are applied auto
 operating system).
 
 ###### Main Screen
-![Main Screen]({{ site.baseurl}}/images/phonegap-3-x-hotshot/caverunner/IMG_0853.png){: class="zoomable no-fill limit-height left"}
+![Main Screen]({{ site.baseurl}}/images/phonegap-3-x-hotshot/caverunner/IMG_0853.PNG){: class="zoomable no-fill limit-height left"}
 
 This screenshot is actually from the second version of the app, where we added a global high-scores table using Parse.
 The look and feel is intentionally skewed away from any one OS's standard appearance (games often get away with this).
 
 ###### Game Play
-![Crash!]({{ site.baseurl}}/images/phonegap-3-x-hotshot/caverunner/IMG_0713.png){: class="zoomable limit-height no-fill right"}
+![Crash!]({{ site.baseurl}}/images/phonegap-3-x-hotshot/caverunner/IMG_0713.PNG){: class="zoomable limit-height no-fill right"}
 
 Shoot! We crashed. This is an example of what the game looks like: there's a cave that has obstacles in it that the player
 must successfully navigate. It's a bit like an endless runner, except the levels actually do end -- but a new one begins
