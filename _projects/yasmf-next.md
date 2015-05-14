@@ -1,17 +1,19 @@
 ---
 layout: page
-title: YASMF-Next
-hideTitle: yes
-hideTextGroup: yes
+title: "YASMF-Next"
+hideTitle: "yes"
+hideTextGroup: "yes"
 active: Projects
-image: block-yasmf-next-large.png
-frontImage: block-yasmf-next.png
+image: "block-yasmf-next-large.png"
+frontImage: "block-yasmf-next.png"
 blurb: "A simple, easy-to-use, light-weight framework that you can use in your mobile applications."
 imageAlign: left
 backgroundColor: "#FFCC44"
-permalink: /projects/yasmf-next/
+permalink: "/projects/yasmf-next/"
 weight: 0
+published: true
 ---
+
 
 # YASMF-Next
 
@@ -21,7 +23,6 @@ weight: 0
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/YASMF-Next">Source Code</a></li>
 <li><i class="fa fa-li fa-link"></i><a target="_blank" href="https://github.com/photokandyStudios/YASMF-Next/wiki">Wiki</a></li>
 <li><i class="fa fa-li fa-link"></i><a target="_blank" href="http://photokandystudios.github.io/YASMF-Next">Documentation</a></li>
-<li><i class="fa fa-li fa-info"></i><a href="{{ site.baseurl }}/categories/yasmf/">News and Updates</a></li>
 </ul>
 </div>
 
