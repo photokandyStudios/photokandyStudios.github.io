@@ -3,33 +3,44 @@ layout: page
 title: Greek Interlinear Bible
 active: Apps
 image: forest.jpg
-carousel:
- - [ apps/greek-interlinear-bible/ipad1.png, apps/greek-interlinear-bible/ipad1.png ]
- - [ apps/greek-interlinear-bible/ipad2.png, apps/greek-interlinear-bible/ipad2.png ]
- - [ apps/greek-interlinear-bible/ipad3.png, apps/greek-interlinear-bible/ipad3.png ]
- - [ apps/greek-interlinear-bible/ipad4.png, apps/greek-interlinear-bible/ipad4.png ]
- - [ apps/greek-interlinear-bible/ipad5.png, apps/greek-interlinear-bible/ipad5.png ]
- - [ apps/greek-interlinear-bible/iphone5-1.png, apps/greek-interlinear-bible/iphone5-1.png ]
- - [ apps/greek-interlinear-bible/iphone5-2.png, apps/greek-interlinear-bible/iphone5-2.png ]
- - [ apps/greek-interlinear-bible/iphone5-3.png, apps/greek-interlinear-bible/iphone5-3.png ]
- - [ apps/greek-interlinear-bible/iphone5-4.png, apps/greek-interlinear-bible/iphone5-4.png ]
- - [ apps/greek-interlinear-bible/iphone5-5.png, apps/greek-interlinear-bible/iphone5-5.png ]
+carousel: 
+  - - "apps/greek-interlinear-bible/ipad1.png"
+    - "apps/greek-interlinear-bible/ipad1.png"
+  - - "apps/greek-interlinear-bible/ipad2.png"
+    - "apps/greek-interlinear-bible/ipad2.png"
+  - - "apps/greek-interlinear-bible/ipad3.png"
+    - "apps/greek-interlinear-bible/ipad3.png"
+  - - "apps/greek-interlinear-bible/ipad4.png"
+    - "apps/greek-interlinear-bible/ipad4.png"
+  - - "apps/greek-interlinear-bible/ipad5.png"
+    - "apps/greek-interlinear-bible/ipad5.png"
+  - - "apps/greek-interlinear-bible/iphone5-1.png"
+    - "apps/greek-interlinear-bible/iphone5-1.png"
+  - - "apps/greek-interlinear-bible/iphone5-2.png"
+    - "apps/greek-interlinear-bible/iphone5-2.png"
+  - - "apps/greek-interlinear-bible/iphone5-3.png"
+    - "apps/greek-interlinear-bible/iphone5-3.png"
+  - - "apps/greek-interlinear-bible/iphone5-4.png"
+    - "apps/greek-interlinear-bible/iphone5-4.png"
+  - - "apps/greek-interlinear-bible/iphone5-5.png"
+    - "apps/greek-interlinear-bible/iphone5-5.png"
 imageAlign: left
-frontImage: app-gib-tn.jpg
+frontImage: "app-gib-tn.jpg"
 permalink: /apps/gib/
-buttons:
- - text: Available on the App Store
-   url: "http://itunes.apple.com/us/app/greek-interlinear-bible/id520000138?mt=8"
-   icon: "fa fa-shopping-cart"
+buttons: 
+  - text: Available on the App Store
+    url: "http://itunes.apple.com/us/app/greek-interlinear-bible/id520000138?mt=8"
+    icon: "fa fa-shopping-cart"
 weight: 0
+published: true
 ---
+
 
 <div class="card right">
 <h1>Useful Links</h1>
 <ul class="fa-ul">
 <li><i class="fa fa-li fa-shopping-cart"></i><a target="_blank" href="{{ page.buttons[0].url }}">Buy on the App Store</a></li>
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/gbible">Source Code</a></li>
-<li><i class="fa fa-li fa-info"></i><a href="{{ site.baseurl }}/categories/greek-bible/">News and Updates</a></li>
 </ul>
 </div>
 
@@ -92,4 +103,4 @@ If you'd like to see the code for yourself or suggest changes, feel free to visi
 
 # Support
 
-For frequently asked questions and more, please visit our [support page](./support/). If you've found a bug or are having difficulty using the app, you can report the issue to us using [Github's Issue Tracker](https://github.com/photokandyStudios/gbible/issues){: target="_blank"}. Also, [see more about how we handle your privacy](./privacy/). If you want, you can [read the manual](./13/about.html){: target="_blank"}.
+For frequently asked questions and more, please visit our [support page](./support/). If you've found a bug or are having difficulty using the app, you can report the issue to us using [Github's Issue Tracker](https://github.com/photokandyStudios/gbible/issues){: target="_blank"}. Also, [see more about how we handle your privacy](./privacy/). If you want, you can [read the manual](http://photokandy.com/apps/gib/13/about.html){: target="_blank"}.
