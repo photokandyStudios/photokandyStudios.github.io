@@ -1,16 +1,18 @@
 ---
 layout: page
 title: Greek Interlinear Bible
-hideTitle: yes
-hideTextGroup: yes
+hideTitle: "yes"
+hideTextGroup: "yes"
 active: Projects
-image: block-code-large.png
-frontImage: block-code.png
-blurb: "The source code for the Greek Interlinear Bible app."
+image: "block-code-large.png"
+frontImage: "block-code.png"
+blurb: The source code for the Greek Interlinear Bible app.
 backgroundColor: "#622"
-permalink: /projects/gbible-source/
+permalink: "/projects/gbible-source/"
 weight: 300
+published: true
 ---
+
 
 # Greek Interlinear Bible Source Code
 
@@ -19,7 +21,6 @@ weight: 300
 <ul class="fa-ul">
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/gbible">Source Code</a></li>
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/gbible-scripts-assets">Scripts / Assets</a></li>
-<li><i class="fa fa-li fa-info"></i><a href="{{ site.baseurl }}/categories/greek-bible/">News and Updates</a></li>
 </ul>
 </div>
 
