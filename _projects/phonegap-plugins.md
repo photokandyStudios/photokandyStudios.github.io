@@ -1,16 +1,18 @@
 ---
 layout: page
 title: PhoneGap Plugins
-hideTitle: yes
-hideTextGroup: yes
+hideTitle: "yes"
+hideTextGroup: "yes"
 active: Projects
-image: block-code-large.png
-frontImage: block-code.png
+image: "block-code-large.png"
+frontImage: "block-code.png"
 blurb: "Some plugins I've created while working in PhoneGap / Cordova that make life a little simpler."
 backgroundColor: "#622"
-permalink: /projects/phonegap-plugins/
+permalink: "/projects/phonegap-plugins/"
 weight: 100
+published: true
 ---
+
 
 # PhoneGap / Cordova Plugins
 
@@ -21,7 +23,6 @@ weight: 100
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/PKNativeControls">PKNativeControls</a></li>
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/PKLocalStorage">PKLocalStorage</a></li>
 <li><i class="fa fa-li fa-code-fork"></i><a target="_blank" href="https://github.com/photokandyStudios/PKVideoThumbnail">PKVideoThumbnail</a></li>
-<li><i class="fa fa-li fa-info"></i><a href="{{ site.baseurl }}/categories/phonegap-plugins/">News and Updates</a></li>
 </ul>
 </div>
 
